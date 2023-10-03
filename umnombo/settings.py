@@ -15,8 +15,8 @@ import os
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-# SECRET_KEY = 'django-insecure-a(ur^_f0+bp%^wvb%^2fvugepf!l!)$n)r475-5#_24y7l-j0+'
-SECRET_KEY = os.environ.get("SECRET_KEY")
+SECRET_KEY = 'django-insecure-a(ur^_f0+bp%^wvb%^2fvugepf!l!)$n)r475-5#_24y7l-j0+'
+
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = os.environ.get("DEBUG", "Flase").lower() == "true"
 
